@@ -150,6 +150,7 @@ form {
     display: flex;
     flex-direction: column;
     margin: 0PX auto;
+    padding: 0 24px;
 }
 
 input,
@@ -184,4 +185,71 @@ footer {
 
 .footer__link {
     padding: 0px 16px;
+}
+
+/* Small Phones, tablets and large smartphones */
+@media (max-width: 728px) {
+.row {
+    flex-direction: column;
+}
+
+.home__description {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__description--button {
+    max-width: 240px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.subheader {
+    text-align: center;
+    font-size: 28px;
+}
+
+ul {
+    display: none;
+}
+
+.section__description {
+    flex-direction: column;
+}
+
+.section__description--wrapper {
+    width: 100%;
+}
+
+.about__img--wrapper {
+    width: 100%;
+}
+#facebook .section__description {
+    flex-direction: column-reverse;
+}
+
+ .section__description--para {
+    text-align: ;
+ }
+ footer {
+    padding:48px 24px ;
+ }
+
+ .footer__logo {
+    max-width: 360px;
+ }
+
+  .footer__link {
+    padding: 0 4px;
+    font-size: 18px;
+  }
+
+  .footer__links {
+    margin-bottom: 24px;
+  }
 }
